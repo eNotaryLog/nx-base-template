@@ -1,0 +1,32 @@
+{
+  "files.exclude": {
+    ".yarn": true,
+    "node_modules": true,
+    "dist": false,
+    ".yarnrc.yml": true,
+    ".eslintcache": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    "**/.gitkeep": true,
+    // "**/.prettierrc": true,
+    "**/.prettierignore": true,
+    "coverage": true,
+    ".git": true,
+    ".husky": true,
+    "yarn.lock": true,
+    "**/.browserslistrc": true,
+    "apps/retail/src/styles": true,
+    "babel.config.json": true,
+    "jest.config.js": true,
+    "jest.preset.js": true,
+    "README.md": true,
+    "apps/organization/src/styles": true
+  },
+  "search.exclude": {
+    "**/assets/*": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
